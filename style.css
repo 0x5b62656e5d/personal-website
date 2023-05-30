@@ -60,6 +60,8 @@ header .container .socials > a i {
     align-items: center;
 
     min-height: 88vh;
+
+    position: relative;
 }
 
 .content .main {
@@ -94,6 +96,13 @@ header .container .socials > a i {
     border-radius: 20px;
     padding: 16px;
     margin-right: 10px;
+}
+
+#duck {
+    position: absolute;
+    bottom: 100px;
+    right: 300px;
+    transform: rotate(20deg);
 }
 
 /* Footer */
