@@ -100,9 +100,21 @@ header .container .socials > a i {
 
 #duck {
     position: absolute;
-    bottom: 100px;
-    right: 300px;
+    bottom: 10vh;
+    right: 18vw;
     transform: rotate(20deg);
+} 
+
+@media (min-width: 992px) {
+    #duck {
+        width: 200px;
+    }
+}
+
+@media (max-width: 992px) {
+    #duck {
+        width: 150px;
+    }
 }
 
 /* Footer */
