@@ -23,6 +23,8 @@ body {
     background: linear-gradient(45deg, #495867, #577399, #995799);
     background-repeat: no-repeat;
     background-attachment: fixed;
+
+    overflow: hidden;
 }
 
 @keyframes rotation {
@@ -32,7 +34,7 @@ body {
 
 /* Header */
 header .container {
-    margin-top: 10px;
+    margin-top: 20px;
     margin-left: 75px;
     margin-right: 75px;
 
@@ -58,8 +60,6 @@ header .container .socials > a i {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-    min-height: 88vh;
 
     position: relative;
 }
